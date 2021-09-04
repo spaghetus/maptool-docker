@@ -7,3 +7,6 @@ services:
       context: .
     ports:
       - "122:22"
+      - "51234:51234"
+    volumes:
+      - "./persist:/persist"
