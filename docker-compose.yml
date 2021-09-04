@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  maptool:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    ports:
+      - "122:22"
